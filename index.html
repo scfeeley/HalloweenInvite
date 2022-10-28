@@ -1,0 +1,54 @@
+<!DOCUMENT html>
+<html lang="en">
+    <head>
+        <title>Invitation</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="info">
+          <h1>Happy Halloween!</h1>
+          <p name="details">
+            You're invited to our Halloween Party!<br>
+            Date: Saturday, October 31st<br>
+            Location: 123 A St<br>
+            Time: 8 pm<br>
+          </p>
+          <div class="floatRight">
+            <img src="witch.jpg" alt="'witch on broom flying past the moon" height="400px" width="400px">
+          </div>
+          <form class="guestInfo">
+            <section name="demographic">
+            <label for='name'>Name: <input id='name' type="text" required placeholder="Bob"></label><br>
+            <label for='email'>Email: <input id='email' type="email" required placeholder="bob@gmail.com"></label><br>
+            <label for='num'>Number of Guests: <input id='num' type="number" required placeholder='1' max="10" min="1"></label><br>
+            <label for='RSVP'>RSVP: 
+                <select id="RSVP" name="RSVP">
+                    <option value="yes">YES</option>
+                    <option value="no">NO</option>
+                </select>
+            </label>
+            </section>
+            <section name="'bringing">
+            <label for="bring">
+                <br>I am bringing: <br>
+                <label for='myself'> <input id="myself" type="radio" name="bring"> Myself</label><br>
+                <label for='apps'><input id="apps" name='bring' type="radio"> Appetizer</label><br>
+                <label for='dessert'><input id="dessert" name='bring' type="radio"> Dessert</label><br>
+                <label for='drink'><input id="drink" name='bring' type="radio"> Drinks</label><br>
+            </label>
+            </section>
+            <section name="activityList">
+            <label for="activities">
+                <br>At the party I want to: <br>
+                <label for='games'><input type="checkbox" id="games" name="activities" value="games"> Play Games</label><br>
+                <label for="movie"><input type='checkbox' id='movie' name='activities' value='movie'> Watch Movies</label><br>
+                <label for="nothing"><input type='checkbox' id='nothing' name='activities' value='nothing'> Nothing</label><br>
+            </label>
+            </section>
+            <label for="Submit">
+                <input type="submit" id="'submit">
+            </label>
+          </form>
+        </div>
+    </body>
+</html>

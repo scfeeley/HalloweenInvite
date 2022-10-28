@@ -1,0 +1,57 @@
+body {
+    background-image: url(pumpkins.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 60px;
+  color: rgb(237, 124, 11);
+  text-align: center;
+  margin-bottom:0;
+  -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+p[name='details'] {
+  color: rgb(108, 60, 5);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size:20px;
+  margin-top: 10px;
+}
+.info {
+  background-color:rgba(248, 247, 245, 0.5);
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 200px;
+}
+section[name='demographic'], section[name='activityList']{
+    color: rgb(43, 5, 125);
+}
+.floatRight { 
+    float:right;
+    margin-left:20px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+sectionl[name='bringing']{
+    color:rgb(108, 60, 5);
+}
+
+input[type='submit']{
+    color: white;
+    background-color:rgb(237, 124, 11);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
